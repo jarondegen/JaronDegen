@@ -1,0 +1,66 @@
+.projects-paragraphs {
+    font-size: .75rem;
+}
+
+.web-screen-shots-div > a{
+    border: 1px solid lightgray;
+}
+
+
+.button-links {
+    justify-self: center;
+    align-self: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.button-links >li {
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-links >li > a {
+    margin: 1%;
+}
+
+.buttons-div {
+    display: flex;
+    justify-content: center;
+    /* grid-template-columns: 70% 30%; */
+}
+
+.live {
+    grid-column: 1/2;
+    display: grid;
+    grid-template-rows: 4 auto;
+}
+
+.live > a {
+    margin: 1%;
+    width: 100%;
+}
+
+.jaron-pic{
+    height: 400px;
+    background-image: url("../../images/jaron-01.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bio {
+    font-size: .9rem;
+}
+
+.education {
+    font-size: .75rem;
+}
+
+.email {
+    margin-top: 5%;
+}
