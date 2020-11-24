@@ -51,6 +51,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 85%;
+    margin:auto;
 }
 
 .bio {
@@ -63,4 +65,10 @@
 
 .email {
     margin-top: 5%;
+}
+
+@media screen and (max-width:1267px) {
+    .jaron-pic{
+        width: 100%;
+    }
 }
