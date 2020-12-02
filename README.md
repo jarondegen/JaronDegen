@@ -1,4 +1,4 @@
-## Hello world 🇺🇸, Hola mundo 🇲🇽 and, Witaj świecie 🇵🇱
+## Hello world 🇺🇸 Hola mundo 🇲🇽 Witaj świecie 🇵🇱
 
 ### I'm Jaron.
 

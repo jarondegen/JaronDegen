@@ -55,6 +55,25 @@
     margin:auto;
 }
 
+#closing-pic {
+    height: 700px;
+    background-image: url("../../images/forest.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    margin:auto;
+}
+
+#contact {
+    text-align: center;
+    margin: auto;
+    justify-self: center;
+}
+
+
+
 .bio {
     font-size: 1rem;
 }
@@ -70,5 +89,8 @@
 @media screen and (max-width:1267px) {
     .jaron-pic{
         width: 100%;
+    }
+    #closing-pic {
+        display: none;
     }
 }
