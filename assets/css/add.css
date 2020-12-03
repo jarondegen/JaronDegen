@@ -1,3 +1,8 @@
+.fabtext {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 400;
+}
+
 .projects-paragraphs {
     font-size: 1rem;
 }
