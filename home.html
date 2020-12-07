@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="assets/css/add.css" />
 	</head>
 	<body class="is-preload">
-
+		<div id="get-in-contact">contact</div>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -101,19 +101,19 @@
 
 
 					<!-- Section -->
-					<section>
+					<!-- <section>
 						<header>
 							<h2>Some of my projects</h2>
 						</header>
 						<div class="content">
 							<div class="gallery web-screen-shots-div">
-								<a href="images/wits-01.png" class="landscape wits-image-a"><img class="landscape wits-image" src="images/wits-01.png" alt="" /></a>
+								
 								<a href="images/tws-01.png"><img src="images/tws-01.png" alt="" /></a>
-								<a href="images/wfl-01.png"><img src="images/wfl-01.png" alt="" /></a>
-								<a href="images/jpd-01.png" class="landscape"><img src="images/jpd-01.png" alt="" /></a>
+								
+								
 							</div>
 						</div>
-					</section>
+					</section> -->
 
 				<!-- Section -->
 
@@ -123,6 +123,10 @@
 							<h2>WhatsInTheSauce </h2>
 						</header>
 						<div class="content projects-paragraphs">
+							<div class="gallery web-screen-shots-div">
+								<a href="images/wits-01.png" class="landscape wits-image-a"><img class="landscape wits-image" src="images/wits-01.png" alt="" /></a>
+							</div>
+							<br>
 							<p>What I enjoy most about coding is the fact that if you can think it, you can build it.  I made a completely unique web app called <a class="wits-link" href="https://whatsinthesauce.herokuapp.com" target="_blank"><strong>WhatsInTheSauce</strong></a> that includes features such as the ability to create multiple shopping lists and then track everything inside of your fridge including expiration dates and dollar values while received updated recipe recommendations based on what is inside your fridge at any given time, all on a single, interactive page.  I achieved this using multiple nested React components and api calls to a custom Flask server that retrieves data from my Postgres database and also to TheMealDB API.  All of the animations, transitions and UI are created with vanilla CSS which I found to be surprisingly powerful with a little finesse and creativity.</p>
 							<div class="live">
 								<a target="_blank" href="https://whatsinthesauce.herokuapp.com" class="button primary large ">WhatsInTheSauce</a>
@@ -136,6 +140,10 @@
 							<h2>Jackpot Degen </h2>
 						</header>
 						<div class="content projects-paragraphs">
+							<div class="gallery web-screen-shots-div">
+								<a href="images/jpd-01.png" class="landscape"><img src="images/jpd-01.png" alt="" /></a>
+							</div>
+							<br>
 							<p>I also have strong skills in backend server and database technologies such as Flask and Postgres which can be seen in project <a class="jpd-link" href="http://jackpotdegen.com" target="_blank"><strong>Jackpot Degen</strong></a>.  It is a web app that allows poker players throughout the country to get real time user generated jackpot updates, information and poker news as well as poker room reviews using extensive CRUD actions and RSS feeds.  Although I am familiar with CSS libraries such as Material UI and Bulma, all of my projects were styled and animated with vanilla CSS.</p>
 							
 							<div class="live">
@@ -155,6 +163,11 @@
 							<h2>WhatsForLunch </h2>
 						</header>
 						<div class="content projects-paragraphs">
+							<div class="gallery web-screen-shots-div">
+								<a href="images/wfl-01.png"><img src="images/wfl-01.png" alt="" /></a>
+								<a href="images/wfl-02.png"><img src="images/wfl-02.png" alt="" /></a>
+							</div>
+							<br>
 							<p>One of my greatest qualities as an employee is the ability to pick something up and learn it quickly.  I have had to learn on the fly many times throughout my career as chef and it has not only made me a more confident performer but a great teacher when given the opportunity.  Recently I built four full-stack web apps in one week bursts, one of which, being a clone of instagram called <a class="wfl-link" href="https://aawhatsforlunch.herokuapp.com" target="_blank"><strong>WhatsForLunch</strong></a>, which includes things like AWS for quick uploads, infinite scroll via React modules and custom search functions for users to enjoy a smooth consistent experience.  </p>
 							<div class="live">
 								<a target="_blank" href="https://aawhatsforlunch.herokuapp.com" class="button large primary ">WhatsForLunch</a>
@@ -168,7 +181,7 @@
 							
 				<-- Section -->
 
-					<section>
+					<section id="foot">
 						<header>
 							<h2>Get in touch</h2>
 						</header>
@@ -199,7 +212,8 @@
 									<span>San Diego</span>
 								</li>
 								<li>
-									<h3><a target="_blank" href="https://docs.google.com/document/d/1KLaDg9u3yrfTeqUbn7ye_FlEO_07ykFSCDMDoz60hXs/edit">Resume</a></h3>
+									<h3><a target="_blank" href="https://docs.google.com/document/d/1WTKpjvMVc2z5sFMuhuVFCZwJ6WddTYFzsN2DCxXTZ-w/edit">Resume</a></h3>
+									<h6><a href="https://docs.google.com/document/d/1WTKpjvMVc2z5sFMuhuVFCZwJ6WddTYFzsN2DCxXTZ-w/export?format=pdf">Download Resume</a></h6>
 								</li>
 								<li>
 									<h3>Elsewhere</h3>
@@ -232,4 +246,13 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
+	<script>
+		const getInContact = document.getElementById('get-in-contact');
+		const contact = document.getElementById('foot')
+
+		getInContact.addEventListener('click', e => {
+			contact.scrollIntoView({behavior: 'smooth'});
+		})
+	</script>
+
 </html>
