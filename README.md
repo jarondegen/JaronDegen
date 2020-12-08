@@ -8,11 +8,11 @@ I've spent my free time building projects, honing my craft, and learning new lan
 
 I wake up excited every morning to see how the tech industry is making the world a better, more enjoyable place and how my code can contribute, one line at a time. And sandwiches. I'll wake up for a good sandwich. 
 
-### [Check out my portfolio here](https://jarondegen.herokuapp.com/)
+#### [Check out my portfolio here](https://jarondegen.herokuapp.com/)
 
-## Projects
-### 👨‍🍳 [WhatsInTheSauce](http://whatsinthesauce.herokuapp.com)
-### 🎲 [JackpotDegen](http://jackpotdegen.com)
-### 🍔 [WhatsForLunch](http://aawhatsforlunch.herokuapp.com)
-### 🥃 [TequilaWithStrangers](http://tequilawithstrangers.herokuapp.com/)
+### Projects
+#### 👨‍🍳 [WhatsInTheSauce](http://whatsinthesauce.herokuapp.com)
+#### 🎲 [JackpotDegen](http://jackpotdegen.com)
+#### 🍔 [WhatsForLunch](http://aawhatsforlunch.herokuapp.com)
+#### 🥃 [TequilaWithStrangers](http://tequilawithstrangers.herokuapp.com/)
 
