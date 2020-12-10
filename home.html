@@ -10,7 +10,6 @@
 		<link rel="stylesheet" href="assets/css/add.css" />
 	</head>
 	<body class="is-preload">
-		<div id="get-in-contact">contact</div>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -32,26 +31,17 @@
 							<h2>At a glance</h2>
 						</header>
 						<div class="content bio">
+							<div class="top-buttons-div">
+								<!-- <div >contact</div> -->
+								<a id="get-in-contact" href="#" class="button primary large top-button">Contact</a>
+								<a href="https://docs.google.com/document/d/1WTKpjvMVc2z5sFMuhuVFCZwJ6WddTYFzsN2DCxXTZ-w/export?format=pdf" class="button primary large top-button">Save Resume</a>
+							</div>
+							<br>
 							<p>As a previous professional chef, now software engineer, I have always loved the combination of being creative and solving logical problems under pressure. It has really given me a sense of freedom and excitement.  I have self-studied and been trained in JavaScript, Python, React, Redux, Flask, Express, SQLAlchemy, Sequelize, HTML CSS and more.  Writing clean efficient code really gets me going.  I thrive in high-pressure, fast-pace situations like cooking for a full dining room in a hot kitchen and tracking down an unknown bug or error on the fly.  The concept of “if you can think it, you can build it” really drives me, especially in a group environment with shared goals.</p>
 						</div>
 					</section>
 
 				<!-- Section -->
-					<section>
-						<header>
-							<h2>Education</h2>
-						</header>
-						<div class="content education">
-							<p>I have studied journalism at SDSU and then graduated from SDMC with a degree in Health Sciences and certificate in Culinary Arts & Culinary Managment. Later, I graduated from App Academy where I elevated my skills as a full-stack software engineer.</p>
-							<ul class="feature-icons">
-								<li class="icon solid fa-laptop">App Academy</li>
-								<li class="icon solid fa-graduation-cap">San Diego Mesa College</li>
-								<li class="icon solid fa-university">San Diego State University</li>
-								<li class="icon solid fa-school">University City High School</li>
-							</ul>
-						</div>
-					</section>
-
 
 					<section>
 						<header>
@@ -181,6 +171,22 @@
 							
 				<-- Section -->
 
+
+					<section>
+						<header>
+							<h2>Education</h2>
+						</header>
+						<div class="content education">
+							<p>I have studied journalism at SDSU and then graduated from SDMC with a degree in Health Sciences and certificate in Culinary Arts & Culinary Managment. Later, I graduated from App Academy where I elevated my skills as a full-stack software engineer.</p>
+							<ul class="feature-icons">
+								<li class="icon solid fa-laptop">App Academy</li>
+								<li class="icon solid fa-graduation-cap">San Diego Mesa College</li>
+								<li class="icon solid fa-university">San Diego State University</li>
+								<li class="icon solid fa-school">University City High School</li>
+							</ul>
+						</div>
+					</section>
+
 					<section id="foot">
 						<header>
 							<h2>Get in touch</h2>
@@ -192,8 +198,8 @@
 								enctype="application/x-www-form-urlencoded">
 								<input type="submit" value="Send Message" class="button primary" />
 							</form>
-							<br>
-							<br>
+							<br class="end-breaks">
+							<br class="end-breaks">
 							<div id="closing-pic"></div>
 						</div>
 						
@@ -251,6 +257,7 @@
 		const contact = document.getElementById('foot')
 
 		getInContact.addEventListener('click', e => {
+			e.preventDefault()
 			contact.scrollIntoView({behavior: 'smooth'});
 		})
 	</script>
